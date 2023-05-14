@@ -1,0 +1,18 @@
+instalar pyinstaller en tu sistema usando pip, el gestor de paquetes de Python. 
+ abrir la línea de comandos (en Windows) o la terminal (en Linux o MacOS) y ejecutar el siguiente comando:
+pip install pyinstaller
+Una vez que hayas instalado pyinstaller, crear un archivo ejecutable de tu programa ejecutando el siguiente comando:
+pyinstaller --onefile tu_programa.py
+Asegúrate de que PyInstaller esté instalado en tu sistema antes de ejecutar el comando. Si PyInstaller no está instalado, puedes instalarlo utilizando el siguiente comando:
+pip install pyinstaller
+ Si estás en una ubicación diferente, puedes especificar la ruta completa al archivo, por ejemplo:
+pyinstaller --onefile C:\ruta\completa\a\AppFinal.py
+Intenta primero asegurarte de que el archivo existe en esa ubicación. Si es así, debes verificar que estés ubicado en la misma carpeta donde se encuentra el archivo antes de ejecutar el comando. Puedes hacer esto usando el comando cd (change directory) en la consola de comandos.
+
+Por ejemplo, si el archivo se encuentra en la ruta C:\Users\famil\Desktop\PROGRA\saludapp231260\AppFinal.py, entonces debes ejecutar los siguientes comandos:
+C:\Users\famil>cd Desktop\PROGRA\saludapp231260
+C:\Users\famil\Desktop\PROGRA\saludapp231260>pyinstaller --onefile AppFinal.py
+
+
+
+
